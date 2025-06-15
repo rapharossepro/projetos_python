@@ -1,14 +1,14 @@
 # Faca um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informacoes possiveis sobre ele.
 
-n = input("Digite algo: ")
-print("O tipo primitivo desse valor e", type(n))
-print("So tem espacos?", n.isspace())
-print("E um numero?", n.isnumeric())
-print("E alfabetico?", n.isalpha())
-print("E alfanumerico?", n.isalnum())
-print("Esta em maiusculas?", n.isupper())
-print("Esta em minusculas?", n.islower())
-print("Esta capitalizada?", n.istitle())
+numero = input("Digite algo: ")
+print("O tipo primitivo desse valor e", type(numero))
+print("So tem espacos?", numero.isspace())
+print("E um numero?", numero.isnumeric())
+print("E alfabetico?", numero.isalpha())
+print("E alfanumerico?", numero.isalnum())
+print("Esta em maiusculas?", numero.isupper())
+print("Esta em minusculas?", numero.islower())
+print("Esta capitalizada?", numero.istitle())
 
 # O codigo acima solicita ao usuario que digite algo e, em seguida, exibe o tipo primitivo do valor digitado e diversas informacoes sobre ele.
 # As informacoes incluem se o valor tem espacos, se e um numero, se e alfabetico, se e alfanumerico, se esta em maiusculas, minusculas ou capitalizado.

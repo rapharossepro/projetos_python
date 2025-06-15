@@ -31,3 +31,20 @@ soma = n10 + n20
 print("A soma entre os numeros e:", soma)
 print(f"A soma entre os numeros e: {soma}")
 print("A soma entre os numeros e: {}\n".format(soma))
+
+
+# if condicao:
+    # se for verdadeiro, roda isso
+#elif outra_condicao:
+    # se a primeira não for, testa essa
+# else:
+    # se nenhuma for, roda isso
+
+idade = int(input("Qual sua idade? "))
+
+if idade >= 18:
+    print("Você é maior de idade.")
+elif idade >= 12:
+    print("Você é um adolescente.")
+else:
+    print("Você é uma criança.")

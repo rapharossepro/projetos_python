@@ -24,3 +24,21 @@ else:
     ## Tambem aprendi a utilizar o int e float para converter os valores de entrada do usuario para numeros inteiros e flutuantes.
     ## Tambem aprendi a utilizar o operador de comparacao >=, <= e == para comaparar os valores das variaveis.
     ## Tambem aprendi a utilizar o operador de atribuicao = para atribuir valores as variaveis.
+
+# int (número inteiro)
+idade = 33
+
+# float (número decimal)
+peso = 87.5
+
+# str (texto)
+nome = "Raphael"
+
+# bool (lógico)
+tem_certificacao = True
+
+# Exibindo os valores com print
+print("Nome:", nome)
+print("Idade:", idade)
+print("Peso:", peso)
+print("Tem certificação?", tem_certificacao)
