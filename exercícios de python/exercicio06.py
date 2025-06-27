@@ -8,3 +8,10 @@ Exemplo:
 Relatório
 ----------------------------------------
 """
+
+def linha():
+    print('-' * 40)
+
+linha()
+print('Relatório')
+linha()
